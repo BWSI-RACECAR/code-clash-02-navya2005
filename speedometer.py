@@ -40,7 +40,7 @@ class Solution:
        # TODO: Write code below to return a list with the solution to the prompt
         
         for x in ary:
-           number = target - X
+           number = target - x
            if number in ary:
                return [ary.index(x), ary.index(number)]
         return False   
